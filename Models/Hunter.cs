@@ -18,9 +18,9 @@ namespace monster_dependency_inversion
             LastName = last;
         }
 
-        public void SuperDuperKillerSlime(Slime slime)
+        public void SuperDuperKillerMonster(Monster Monster)
         {
-            slime.DefinitelyKills("Slime");
+            Monster.DefinitelyKills("Slime");
         }
 
         public void SplashWater(ISplashable splashable)

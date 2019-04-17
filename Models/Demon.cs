@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace monster_dependency_inversion
 {
-    public class Demon : Slime, ICombustable, ISplashable, IStabbable
+    public class Demon : Monster, ICombustable, ISplashable, IStabbable
     {
         public void Burn(string attack)
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace monster_dependency_inversion
 {
-    public class Wight : Slime, IStabbable
+    public class Wight : Monster, IStabbable
     {
         public void Stab(string attack)
         {

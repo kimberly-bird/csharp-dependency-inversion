@@ -2,7 +2,7 @@ using System;
 
 namespace monster_dependency_inversion
 {
-    public class Vampire : Slime, IStabbable, ICombustable
+    public class Vampire : Monster, IStabbable, ICombustable
     {
         public void Burn(string attack)
         {

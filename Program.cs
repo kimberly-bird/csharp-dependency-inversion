@@ -15,7 +15,7 @@ namespace monster_dependency_inversion
 
             VonRimmersmark.SplashWater(demonbreun);
 
-            VonRimmersmark.SuperDuperKillerSlime(tuts);
+            VonRimmersmark.SuperDuperKillerMonster(tuts);
         }
     }
 }
